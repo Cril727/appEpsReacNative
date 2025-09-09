@@ -5,7 +5,7 @@ import { StyleSheet } from 'react-native';
 
 export default function Inicio() {
     return (
-        <ScrollView contentContainerStyle={styles.contained}>
+        <ScrollView contentContainerStyle={styles.gridContainer}>
 
             <View style={styles.gridContained}>
                 <CardComponent
